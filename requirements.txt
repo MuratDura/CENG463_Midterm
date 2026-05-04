@@ -1,0 +1,16 @@
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+scikit-learn
+xgboost
+imbalanced-learn
+umap-learn
+torch
+torchvision
+optuna
+Pillow
+lime
+shap
+datasets
