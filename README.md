@@ -62,7 +62,3 @@ python q5.py --dummy-data --fast
 - `FAST_MODE` / `--fast` is intended for shorter test runs.
 - Full runs can require significantly more time and memory.
 - If a GPU is available, `q5.py` training is much faster.
-
-```bash
-gh repo create YOUR_REPO_NAME --public --source=. --remote=origin --push
-```
