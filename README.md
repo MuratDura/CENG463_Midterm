@@ -63,8 +63,6 @@ python q5.py --dummy-data --fast
 - Full runs can require significantly more time and memory.
 - If a GPU is available, `q5.py` training is much faster.
 
-**Option B — GitHub CLI** (`gh auth login` once)
-
 ```bash
 gh repo create YOUR_REPO_NAME --public --source=. --remote=origin --push
 ```
