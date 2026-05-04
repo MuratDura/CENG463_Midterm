@@ -63,20 +63,6 @@ python q5.py --dummy-data --fast
 - Full runs can require significantly more time and memory.
 - If a GPU is available, `q5.py` training is much faster.
 
-## Publishing to GitHub
-
-This folder is already a Git repository on branch `main` with a `.gitignore` that excludes `.venv/` and the local `data/` download directory.
-
-**Option A — GitHub website**
-
-1. On GitHub: **New repository** → choose a name (e.g. `ml-experiment-suite`) → create **without** README (this project already has one).
-2. In the project folder:
-
-```bash
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
-git push -u origin main
-```
-
 **Option B — GitHub CLI** (`gh auth login` once)
 
 ```bash
